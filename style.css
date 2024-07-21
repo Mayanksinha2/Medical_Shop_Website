@@ -1,0 +1,121 @@
+.full-bg {
+    background-image: url('images/medical_image.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+  }
+  
+  .overlay {
+    background-color: rgba(0, 0, 0, 0.5); /* Optional: Adds a dark overlay for better text visibility */
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white; /* Change text color to white for better contrast */
+  }
+  
+  .jumbotron {
+    background: none; /* Remove default jumbotron background */
+    color: white; /* Change text color to white for better contrast */
+  }
+  
+
+  .custom-footer {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    background-color: rgb(252, 250, 250);
+    padding: 1rem;
+    text-align: right;
+  }
+  
+  .footer .container {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  /* Custom Font */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.navbar-brand {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+
+.navbar-nav .nav-link {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  color: #ffffff; /* White text color */
+  padding: 0.75rem 1.5rem; /* Adjust padding for better spacing */
+  transition: color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.navbar-nav .nav-link:hover {
+  color: #cce7ff; /* Lighter color on hover */
+}
+
+.navbar {
+  background-color: #28a745; /* Custom green background */
+  border-bottom: 2px solid #218838; /* Slightly darker green border */
+}
+
+.navbar-toggler {
+  border-color: #ffffff; /* White border for the toggle button */
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba%28255, 255, 255, 1%29' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .contain {
+    max-width: 800px;
+    margin: auto;
+  }
+  
+    h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  } 
+  
+    p {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+  } 
+  
+  .form-group label {
+    font-weight: bold;
+  }
+  
+  .form-group input, .form-group textarea {
+    border-radius: 5px;
+    padding: 10px;
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 1rem;
+  }
+  
+  .btn-primary {
+    background-color: #28a745;
+    border-color: #28a745;
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+  }
+  
+  .btn-primary:hover {
+    background-color: #218838;
+    border-color: #1e7e34;
+  }
+  
+  
